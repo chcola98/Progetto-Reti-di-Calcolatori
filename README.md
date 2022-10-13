@@ -7,8 +7,7 @@ Chiara Colaizzi (matricola 1795759)
 # Scopo del progetto #
 
 **LiveAbroad** è una WebApp pensata per aiutare chiunque decida di andare a vivere all’estero o lontano dalla propria città.
-Attraverso l’utilizzo di diverse API consente all’utente di cercare informazioni sui documenti richiesti per vivere nel Paese prescelto, di cercare informazioni sul costo della vita e infine consente di cercare un alloggio nel luogo indicato.
-Inoltre, effettuando l’accesso con il proprio account Google, è possibile creare un documento di riepilogo con le informazioni trovate e riceverlo direttamente sulla propria casella di posta Gmail.
+Attraverso l’utilizzo di diverse API consente all’utente di cercare informazioni sui documenti richiesti per vivere nel Paese prescelto, di cercare informazioni sul costo della vita e di cercare un alloggio nel luogo indicato.
 
 
 # Architettura di riferimento e tecnologie usate (con un diagramma)
@@ -21,7 +20,8 @@ Requisiti di progetto e Tecnologie utilizzate
 1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate.
    * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate;
    
-2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;
+2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;![icons8-ok-32](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
+
 
 3.	Almeno uno dei servizi REST esterni deve essere “commerciale”;
 
