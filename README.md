@@ -17,24 +17,24 @@ Inoltre, effettuando l’accesso con il proprio account Google, è possibile cre
 # Indicazioni sul soddisfacimento dei requisiti
 
 Requisiti di progetto e Tecnologie utilizzate
--[ ] Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate. [x]
+1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate.
     * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate;
-2.	SERV si deve interfacciare con almeno due servizi REST di terze parti; [x]
-3.	Almeno uno dei servizi REST esterni deve essere “commerciale”; [x]
-4.	Almeno uno dei servizi REST esterni deve richiedere oauth: [x]
+2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;
+3.	Almeno uno dei servizi REST esterni deve essere “commerciale”;
+4.	Almeno uno dei servizi REST esterni deve richiedere oauth:
 
     * **Visa List**: per avere informazioni riguardanti Visti e documenti richiesti nel Paese prescelto;
     *	**Cost of living Prices by City & Country** : per avere informazioni riguardanti il costo della vita nella città o nel Paese prescelto;
     *	**Airbnb**: per consentire la ricerca di una casa in affitto nella città o nel Paese prescelto.
     *	**Gmail**: per ricevere una mail di riepilogo dei dati ottenuti nella ricerca.
 
-5.	La soluzione deve prevedere l'uso di protocolli asincroni: [x]
+5.	La soluzione deve prevedere l'uso di protocolli asincroni:
     * **RabbitMQ**: utilizzato per gestire l'invio delle mail di riepilogo attraverso l'uso di **Nodemailer**.
 
-6.	Il progetto deve prevedere l'uso di Docker e l'automazione del processo di lancio, configurazione e test: [x]
+6.	Il progetto deve prevedere l'uso di Docker e l'automazione del processo di lancio, configurazione e test:
     * **Docker**: utilizzato per la creazione della Web App su più container.
 
-7.	Il progetto deve essere su GIT (GITHUB, GITLAB ...) e documentato con un README: [x]
+7.	Il progetto deve essere su GIT (GITHUB, GITLAB ...) e documentato con un README:
     *	**GitHub**: utilizzato per condividere i file;
     * **README.md**
 
@@ -51,3 +51,11 @@ Requisiti di progetto e Tecnologie utilizzate
 
 # Documentazione delle API
 ...
+
+
+Puoi utilizzare il tag della lingua diff per generare testo evidenziato in verde e rosso:
+
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
