@@ -15,13 +15,21 @@ Inoltre, effettuando l’accesso con il proprio account Google, è possibile cre
 ![VISA LIST_page-0001](https://user-images.githubusercontent.com/49658009/195655355-8836e0c2-3bee-4322-adf5-ae0ba3e6e570.jpg)
 
 # Indicazioni sul soddisfacimento dei requisiti
-```diff
+
 Requisiti di progetto e Tecnologie utilizzate
+```diff
 +1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate.
+```
     * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate;
+```diff
 +2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;
+```
+```diff
 +3.	Almeno uno dei servizi REST esterni deve essere “commerciale”;
+```
+```diff
 +4.	Almeno uno dei servizi REST esterni deve richiedere oauth:
+```
 
     * **Visa List**: per avere informazioni riguardanti Visti e documenti richiesti nel Paese prescelto;
     *	**Cost of living Prices by City & Country** : per avere informazioni riguardanti il costo della vita nella città o nel Paese prescelto;
@@ -40,7 +48,7 @@ Requisiti di progetto e Tecnologie utilizzate
 
 +8.	Deve essere implementata una forma di CI/CD:
     * **GitHub Actions**: è stata implementata una forma di CI/CD ed far partire i test quando viene effettuata una push;
-
+```diff
 +9.	Requisiti minimi di sicurezza devono essere considerati e documentati:
 ```
 # istruzioni per l'installazione
