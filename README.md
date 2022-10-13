@@ -12,7 +12,7 @@ Inoltre, effettuando l’accesso con il proprio account Google, è possibile cre
 
 
 # Architettura di riferimento e tecnologie usate (con un diagramma)
-[VISA LIST.pdf](https://github.com/chcola98/Progetto-Reti-di-Calcolatori/files/9778751/VISA.LIST.pdf)
+![VISA LIST_page-0001](https://user-images.githubusercontent.com/49658009/195655355-8836e0c2-3bee-4322-adf5-ae0ba3e6e570.jpg)
 
 # Indicazioni sul soddisfacimento dei requisiti
 
