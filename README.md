@@ -17,11 +17,11 @@ Attraverso l’utilizzo di diverse API consente all’utente di cercare informaz
 
 Requisiti di progetto e Tecnologie utilizzate
 
+![icons8-ok-16](https://user-images.githubusercontent.com/49658009/195683156-f916dbd8-84ce-48c3-a567-4163b77ab346.png)
 1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate.
    * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate;
    
-2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;![icons8-ok-32](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
-
+2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;
 
 3.	Almeno uno dei servizi REST esterni deve essere “commerciale”;
 
