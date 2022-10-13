@@ -17,8 +17,7 @@ Attraverso l’utilizzo di diverse API consente all’utente di cercare informaz
 
 Requisiti di progetto e Tecnologie utilizzate
 
-1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate. ![icons8-ok-16](https://user-images.githubusercontent.com/49658009/195684520-cacafde9-41e9-4e4d-a228-dbd31fc49e2e.png)
-
+1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate.![icons8-ok-32](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
    * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate; 
 
    
@@ -52,7 +51,7 @@ Requisiti di progetto e Tecnologie utilizzate
     
       * **GitHub Actions**: è stata implementata una forma di CI/CD ed far partire i test quando viene effettuata una push;
 
-+9.	Requisiti minimi di sicurezza devono essere considerati e documentati:  ![icons8-ok-32](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
+9.	Requisiti minimi di sicurezza devono essere considerati e documentati:  ![icons8-ok-32](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
 
 # istruzioni per l'installazione
 ...
