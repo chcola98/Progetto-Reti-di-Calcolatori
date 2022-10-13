@@ -17,40 +17,36 @@ Inoltre, effettuando l’accesso con il proprio account Google, è possibile cre
 # Indicazioni sul soddisfacimento dei requisiti
 
 Requisiti di progetto e Tecnologie utilizzate
-```diff
-+1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate.
-```
-    * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate;
-```diff
-+2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;
-```
-```diff
-+3.	Almeno uno dei servizi REST esterni deve essere “commerciale”;
-```
-```diff
-+4.	Almeno uno dei servizi REST esterni deve richiedere oauth:
-```
+
+1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate.
+   * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate;
+   
+2.	SERV si deve interfacciare con almeno due servizi REST di terze parti;
+
+3.	Almeno uno dei servizi REST esterni deve essere “commerciale”;
+
+4.	Almeno uno dei servizi REST esterni deve richiedere oauth:
 
     * **Visa List**: per avere informazioni riguardanti Visti e documenti richiesti nel Paese prescelto;
     *	**Cost of living Prices by City & Country** : per avere informazioni riguardanti il costo della vita nella città o nel Paese prescelto;
     *	**Airbnb**: per consentire la ricerca di una casa in affitto nella città o nel Paese prescelto.
     *	**Gmail**: per ricevere una mail di riepilogo dei dati ottenuti nella ricerca.
 
-+5.	La soluzione deve prevedere l'uso di protocolli asincroni:
+5.	La soluzione deve prevedere l'uso di protocolli asincroni:
     * **RabbitMQ**: utilizzato per gestire l'invio delle mail di riepilogo attraverso l'uso di **Nodemailer**.
 
-+6.	Il progetto deve prevedere l'uso di Docker e l'automazione del processo di lancio, configurazione e test:
+6.	Il progetto deve prevedere l'uso di Docker e l'automazione del processo di lancio, configurazione e test:
     * **Docker**: utilizzato per la creazione della Web App su più container.
 
-+7.	Il progetto deve essere su GIT (GITHUB, GITLAB ...) e documentato con un README:
+7.	Il progetto deve essere su GIT (GITHUB, GITLAB ...) e documentato con un README:
     *	**GitHub**: utilizzato per condividere i file;
     * **README.md**
 
-+8.	Deve essere implementata una forma di CI/CD:
+8.	Deve essere implementata una forma di CI/CD:
     * **GitHub Actions**: è stata implementata una forma di CI/CD ed far partire i test quando viene effettuata una push;
-```diff
+
 +9.	Requisiti minimi di sicurezza devono essere considerati e documentati:
-```
+
 # istruzioni per l'installazione
 ...
 
