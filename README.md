@@ -1,16 +1,18 @@
 Reti di calcolatori
 
-# Work in progress #
+# LiveAbroad #
 Progetto svolto per il corso di Reti di Calcolatori 2021/2022
 Chiara Colaizzi (matricola 1795759)
 
 # Scopo del progetto #
 
-work in progress
+**LiveAbroad** è una WebApp pensata per aiutare chiunque decida di andare a vivere all’estero o lontano dalla propria città.
+Attraverso l’utilizzo di diverse API consente all’utente di cercare informazioni sui documenti richiesti per vivere nel Paese prescelto, di cercare informazioni sul costo della vita e infine consente di cercare un alloggio nel luogo indicato.
+Inoltre, effettuando l’accesso con il proprio account Google, è possibile creare un documento di riepilogo con le informazioni trovate e riceverlo direttamente sulla propria casella di posta Gmail.
 
 
 # Architettura di riferimento e tecnologie usate (con un diagramma)
-![client (1)](https://user-images.githubusercontent.com/49658009/176608526-d68aaf32-e7db-40bf-bb35-c78723df2438.png)
+[VISA LIST.pdf](https://github.com/chcola98/Progetto-Reti-di-Calcolatori/files/9778751/VISA.LIST.pdf)
 
 # Indicazioni sul soddisfacimento dei requisiti
 
@@ -21,20 +23,20 @@ Requisiti di progetto e Tecnologie utilizzate
 3.	Almeno uno dei servizi REST esterni deve essere “commerciale”,
 4.	Almeno uno dei servizi REST esterni deve richiedere oauth:
 
-    * **API-FOOTBALL**: utilizzata per mostrare risultati, statistiche e classifiche in tempo reale.
-    *	ScoreBat API: utilizzata per mostrare gli highlights e i goal ufficiali di ogni partita della competizione.
-    *	**Google Calendar**: utilizzato per creare/aggiungere eventi al proprio calendario (tramite accesso Oauth).
-    *	**Google**: utilizzato per l’accesso al sito web tramite protocollo Oauth.
+    * **Visa List**: per avere informazioni riguardanti Visti e documenti richiesti nel Paese prescelto;
+    *	**Cost of living Prices by City & Country** : per avere informazioni riguardanti il costo della vita nella città o nel Paese prescelto;
+    *	**Airbnb**: per consentire la ricerca di una casa in affitto nella città o nel Paese prescelto.
+    *	**Gmail**: per ricevere una mail di riepilogo dei dati ottenuti nella ricerca.
 
 5.	La soluzione deve prevedere l'uso di protocolli asincroni:
-    * **RabbitMQ**
+    * **RabbitMQ**: utilizzato per gestire l'invio delle mail di riepilogo attraverso l'uso di **Nodemailer**.
 
 6.	Il progetto deve prevedere l'uso di Docker e l'automazione del processo di lancio, configurazione e test:
     * **Docker**: utilizzato per la creazione della Web App su più container.
 
 7.	Il progetto deve essere su GIT (GITHUB, GITLAB ...) e documentato con un README: 
-    *	**GitHub**: utilizzato per condividere i file e permettere al gruppo di lavorare allo stesso progetto contemporaneamente;
-    * **README.md**: utilizzato per 
+    *	**GitHub**: utilizzato per condividere i file;
+    * **README.md**
 
 8.	Deve essere implementata una forma di CI/CD:
     * **GitHub Actions**: è stata implementata una forma di CI/CD ed far partire i test quando viene effettuata una push;
