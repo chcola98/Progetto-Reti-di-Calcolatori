@@ -17,7 +17,7 @@ Inoltre, effettuando l’accesso con il proprio account Google, è possibile cre
 # Indicazioni sul soddisfacimento dei requisiti
 
 Requisiti di progetto e Tecnologie utilizzate
-1. Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate. [x]
+1.[x] Il servizio REST che implementate (SERV) deve offrire a terze parti delle API documentate. [x]
     * **Apidoc**: utilizzato per fornire la documentazione delle API utilizzate;
 2.	SERV si deve interfacciare con almeno due servizi REST di terze parti; [x]
 3.	Almeno uno dei servizi REST esterni deve essere “commerciale”; [x]
