@@ -11,7 +11,6 @@ Attraverso l’utilizzo di diverse API consente all’utente di cercare informaz
 
 
 # Architettura di riferimento e tecnologie usate (con un diagramma)
-![VISA LIST_page-0001](https://user-images.githubusercontent.com/49658009/195655355-8836e0c2-3bee-4322-adf5-ae0ba3e6e570.jpg)
 
 # Indicazioni sul soddisfacimento dei requisiti
 
