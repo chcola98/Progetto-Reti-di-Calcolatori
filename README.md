@@ -7,8 +7,8 @@ Chiara Colaizzi (matricola 1795759)
 # Scopo del progetto #
 
 **LiveAbroad** è una WebApp pensata per aiutare chiunque decida di andare a vivere all’estero o lontano dalla propria città.
-Attraverso l’utilizzo di diverse API consente all’utente di cercare informazioni sui documenti richiesti per vivere nel Paese prescelto, di cercare informazioni sul costo della vita e di cercare un alloggio nel luogo indicato.
-
+Attraverso l’utilizzo di diverse API consente all’utente di cercare informazioni sui documenti richiesti e sul costo della vita nel Paese prescelto.
+Effettuando l'accesso alla WebApp, sarà possibile ricevere via mail un resoconto delle ricerche effettuate in formato PDF. Inoltre, effettuando l'accesso con il proprio account Google sarà possibile salvare il resoconto ottenuto sul proprio Google Drive così da averlo a disposizione in qualsiasi momento.
 
 # Architettura di riferimento e tecnologie usate (con un diagramma)
 
@@ -34,8 +34,7 @@ Requisiti di progetto e Tecnologie utilizzate
    
     * **Visa List**: per avere informazioni riguardanti Visti e documenti richiesti nel Paese prescelto;
     * **Cost of living Prices by City & Country** : per avere informazioni riguardanti il costo della vita nella città o nel Paese prescelto;
-    * **Airbnb**: per consentire la ricerca di una casa in affitto nella città o nel Paese prescelto.
-    * **Gmail**: per ricevere una mail di riepilogo dei dati ottenuti nella ricerca.
+    * **Google Drive**: per salvare sul proprio Drive il riepilogo dei dati ottenuti nella ricerca.
 
 5.	La soluzione deve prevedere l'uso di protocolli asincroni:
 ![icons8-ok-32](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
@@ -45,13 +44,13 @@ Requisiti di progetto e Tecnologie utilizzate
 6.	Il progetto deve prevedere l'uso di Docker e l'automazione del processo di lancio, configurazione e test:
 ![icons8-ok-32](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
    
-    * **Docker**: utilizzato per la creazione della Web App su più container.
+    * **Docker**: utilizzato per la creazione della WebApp su più container.
 
 7.	Il progetto deve essere su GIT (GITHUB, GITLAB ...) e documentato con un README:
 ![icons8-ok-16](https://user-images.githubusercontent.com/49658009/195682878-d59bfc7a-c42d-42a3-8ee6-11d1c5d6e435.png)
     
       *	**GitHub**: utilizzato per condividere i file;
-      * **README.md**
+      * **README.md**: utilizzato per illustrare il progetto;
 
 8.	Deve essere implementata una forma di CI/CD:
     
