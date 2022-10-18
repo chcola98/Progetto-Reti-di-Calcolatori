@@ -11,7 +11,7 @@ Attraverso l’utilizzo di diverse API consente all’utente di cercare informaz
 Effettuando l'accesso alla WebApp, sarà possibile ricevere via mail un resoconto delle ricerche effettuate in formato PDF. Inoltre, effettuando l'accesso con il proprio account Google sarà possibile salvare il resoconto ottenuto sul proprio Google Drive così da averlo a disposizione in qualsiasi momento.
 
 # Architettura di riferimento e tecnologie usate (con un diagramma)
-![VISA LIST](https://user-images.githubusercontent.com/49658009/196389202-7675276b-cebb-44ef-96b9-609004783012.jpg)
+![VISA_LIST](https://user-images.githubusercontent.com/49658009/196391073-7fb6ca1d-ec6a-4da4-81ee-19f4b2e1e36c.jpg)
 
 # Indicazioni sul soddisfacimento dei requisiti
 
